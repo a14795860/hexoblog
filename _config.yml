@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo Blog
-subtitle:Umin
-description:Hexo Blog Android
-author: Umin Yu
-language:zh-CN 
+title: Hexo
+subtitle:
+description: Android
+author: Umin
+language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://umin.xyz
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,7 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:github
-  repository: git@github.com:a14795860/hexoblog.git
-  branch: gh-pages
-  plugins:  - hexo-generator-feed
+  type:
